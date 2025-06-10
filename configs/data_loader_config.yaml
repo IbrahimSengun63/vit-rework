@@ -1,0 +1,17 @@
+train_loader:
+  train_lmdb_path: "datasets/lmdb/train"
+  train_batch_size: 1024
+  train_num_workers: 6
+  train_subset_fraction: 0
+
+val_loader:
+  val_lmdb_path: "datasets/lmdb/val"
+  val_batch_size: 512
+  val_num_workers: 2
+  val_subset_fraction: 0
+
+transforms:
+  img_height: 224
+  img_width: 224
+
+

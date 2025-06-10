@@ -1,3 +1,7 @@
-verbose: false
-log_to_file: false
-log_file_path: "logs/app.log"  # You can specify any path you want here
+console_verbose: false
+console_level: INFO
+
+write_file: true
+file_level: INFO
+
+log_file_path: "logs/app.log"

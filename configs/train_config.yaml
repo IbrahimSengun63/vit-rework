@@ -1,0 +1,8 @@
+model_name: "vit"
+epoch: 300
+linear_warm_up_epoch: 20
+lr: 0.001
+weight_decay: 0.05
+save_dir: "models/"
+save_freq: 50
+save_number: 3

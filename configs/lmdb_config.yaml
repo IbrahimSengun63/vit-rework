@@ -1,0 +1,9 @@
+train_output: "datasets/lmdb/train"
+val_output: "datasets/lmdb/val"
+train_dataset_path: "datasets/imagenet/train"
+val_dataset_path: "datasets/imagenet/validation"
+class_map_location: "datasets/imagenet/imagenet_classes.txt"
+write_freq: 10000
+num_workers: 8
+train_map_size_gb: 200
+val_map_size_gb: 30

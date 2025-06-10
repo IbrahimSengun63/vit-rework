@@ -1,0 +1,7 @@
+img_height: 224
+img_width: 224
+img_channel: 3
+patch_height: 16
+patch_width: 16
+embedding_dimension: 768
+drop_rate: 0.1

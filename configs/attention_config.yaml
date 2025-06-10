@@ -1,0 +1,3 @@
+n_heads: 12
+drop_rate: 0.1
+embedding_dimension: 768
